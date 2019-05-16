@@ -1,9 +1,9 @@
 # Caesar Ciphers
 A set of two Caesar Cipher programs written in C. Encrypts and decrypts phrases and text files.
 
-Author: Eugene Lucino
-
 Caesar cipher- shifts each letter in a message by a specific number (a key value) of letters
+
+Author: **Eugene Lucino**
 
 ## Features
 - encryption
@@ -20,6 +20,7 @@ Caesar cipher- shifts each letter in a message by a specific number (a key value
 ### caesar2.c
 - A more advanced mode of decryption.
 - Uses letter frequencies and the chi square statistic to mathematically determine the key number.
+- **NOTE:** This method may not decrypt properly for messages that are very short or contain an unusual distribution of letters.
 
 ## Setup
 
